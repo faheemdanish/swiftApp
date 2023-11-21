@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct infoperson: View {
+    @State var personname="abc"
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(personname)
     }
 }
 

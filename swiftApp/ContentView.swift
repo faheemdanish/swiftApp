@@ -8,14 +8,47 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
     var body: some View {
         VStack {
+            
+            
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            
+            
+            Text("Faheem Danish")
+                .font(.largeTitle)
+                .padding(.horizontal)
+                .background(.green)
+                .border(Color.red, width: 1)
+            
+            HStack  {
+           
+            Text(" Uppgift 1")
+            Text(" Vecka 45")
+            }
+            
+            Spacer()
+            HStack  {
+           
+                Text(" Botten")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.blue)
+            
+            }
+            
+            
+            
         }
         .padding()
+        
+        
+        
+        
     }
 }
 

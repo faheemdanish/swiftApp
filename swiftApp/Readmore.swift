@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct Readmore: View {
+    
+    var thename = "ABC"
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Läs mer om Den här personen")
+            .font(.largeTitle)
+            .fontWeight(.bold)
+            .foregroundColor(Color.red)
+            .multilineTextAlignment(.center)
+        Text(thename)
     }
 }
 
